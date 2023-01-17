@@ -1,14 +1,22 @@
 <template>
   <v-container>
     <v-row>
-    <h1>En construcció</h1>
-  </v-row>
+      <v-col>
+    <h1 style="font-size:10vh"> AQUÍ VA EL MISSATGE</h1>
+    <v-btn @click="testejarApi()">test</v-btn>
+     </v-col>
+    </v-row>
   </v-container>
   
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  methods:{
+    testejarApi(){
+      console.log('Provant api...')
+      
+    }
+  }
 }
 </script>

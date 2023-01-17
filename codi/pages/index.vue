@@ -2,17 +2,34 @@
   <v-container>
     <v-row>
       <v-col>
+        <h1>EN CONSTRUCCIÓ</h1>
+      </v-col>
+      <!-- <v-col cols="4"> 
+        <v-text-field label="text"></v-text-field>
+        <v-btn ></v-btn>
+      </v-col>
+      <v-col cols="4">
+        <v-text-field label="nomUsuari"></v-text-field>
+        <v-btn ></v-btn>
+      </v-col>
+      <v-col cols="4">
+        <v-btn >Enviar</v-btn>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <h1>En construcció</h1>
         <h1 style="font-size:10vh">{{ultimMissatge}}</h1>
         <h4>{{ultimUsuari}}</h4>
         <v-btn @click="enviarMissatge()">enviar</v-btn>
 
-        <!-- <v-btn @click="descarregarUltimText()">ultim text</v-btn> -->
-      </v-col>
+         <v-btn @click="descarregarUltimText()">ultim text</v-btn> 
+      </v-col> -->
     </v-row>
   </v-container>
   </template>
   
-  <script>
+  <!-- <script> 
   export default{
     mounted(){
 
@@ -94,4 +111,4 @@
       }
     }
   }
-  </script>
+  </script> -->

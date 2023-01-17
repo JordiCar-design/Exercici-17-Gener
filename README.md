@@ -1,0 +1,1 @@
+# Exercici-17-Gener
